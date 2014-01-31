@@ -4,7 +4,7 @@ var choisrApp = angular.module('choisrApp', [
   // 'choisrApp.filters',
   // 'choisrApp.services',
   // 'choisrApp.directives',
-  'choisrApp.controllers'
+  'choisrApp.controller'
 ]);
 
 choisrApp.config(function ($routeProvider) {
