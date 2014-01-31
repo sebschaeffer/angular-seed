@@ -1,19 +1,20 @@
 <!doctype html>
-<html lang="en" ng-app="myApp">
+<html lang="en" ng-app="choisrApp">
 <head>
-  <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <meta charitems="utf-8">
+  <title>Choisr Mobile</title>
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/ionic.min.css"/>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
 
-  <div ng-view></div>
+<header-bar class="bar bar-header bar-light">
+  <h1 class="title">Choisr</h1>
+</header-bar>
 
-  <div>Angular seed app: v<span app-version></span></div>
+<div ng-view></div>
+
+
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
@@ -25,5 +26,8 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="js/factories.js"></script>
+  <script src="js/ionic.min.js"></script>
+  <script src="js/ionic-angular.min.js"></script>
 </body>
 </html>

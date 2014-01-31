@@ -1,1 +1,13 @@
-<p>This is the partial for view 1.</p>
+<content>
+  <div ng-controller="itemsController">
+
+    <div class="list">
+      <a class="item item-thumbnail-left" href="#" ng-repeat="item in items">
+        <img src="/img/{{ item.id }}.jpg" alt="{{ item.title }}" />
+        <h2>{{ item.title }}</h2>
+        <p>by {{ item.username }}</p>
+      </a>
+    </div>
+
+  </div>
+</content>

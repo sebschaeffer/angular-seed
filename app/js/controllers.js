@@ -1,11 +1,10 @@
 'use strict';
 
 /* Controllers */
+// var controllers = {};
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+// controllers.itemsController = function ($scope, itemFactory) {
+// 	$scope.items = itemfactory.getItems();
+// };
 
-  }])
-  .controller('MyCtrl2', [function() {
-
-  }]);
+// choisrApp.controller(controllers);
