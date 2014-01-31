@@ -1,10 +1,10 @@
 'use strict';
 
 /* Controllers */
-// var controllers = {};
+var controllers = {};
 
-// controllers.itemsController = function ($scope, itemFactory) {
-// 	$scope.items = itemfactory.getItems();
-// };
+controllers.itemsController = function ($scope, itemFactory) {
+	$scope.items = itemfactory.getItems();
+};
 
-// choisrApp.controller(controllers);
+choisrApp.controller(controllers);
